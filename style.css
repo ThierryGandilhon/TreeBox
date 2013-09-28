@@ -1,0 +1,71 @@
+body {
+		 font-family : arial;
+		 font-size   : 10pt;
+}
+
+h1 {
+	 background-color : #DDD;
+}
+
+h2 {
+	 background-color : #EEE;
+}
+
+p.comment {
+	color:#A0A0A0;
+}
+
+.green {
+	background-color: green;
+}
+
+.folded {
+	font-style : italic;
+}
+
+
+
+.title {
+	font-size : 8pt;	
+	padding : 0.2em;
+	text-align : center;
+}
+
+.node {
+/*	padding : 0.2em;*/
+/*	margin  : 0.1em;*/
+	border : 1px solid grey;	
+}
+
+
+
+.htree {
+	display: table;
+}
+
+.htree .title {
+
+}
+
+.htree .node {
+	float : left;
+}
+
+
+
+
+.vtree {
+	display : table;
+}
+
+.vtree .title {
+	display : inline;
+	float : left;
+}
+
+.vtree .node {
+	display : inline;
+	float : right;
+	clear : right;
+}
+
